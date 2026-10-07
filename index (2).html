@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kejutan untuk Livia Ramadhani</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Quicksand:wght@500;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--k:#e0457b;--tx:#7a2a4a;--gd:#e8b84a;box-sizing:border-box}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%;overflow:hidden;position:fixed;width:100%;overscroll-behavior:none}
+body{height:100dvh;font-family:Quicksand,system-ui,sans-serif;color:var(--tx);background:radial-gradient(circle at 15% 10%,#fff 0,transparent 40%),radial-gradient(circle at 85% 85%,#ffd1e3,transparent 50%),linear-gradient(160deg,#ffe9f1,#ffc9dc 55%,#f6cdef)}
+.serif{font-family:'Playfair Display',serif}.sc2{font-family:'Dancing Script',cursive}
+.sc{position:absolute;inset:0;height:100dvh;display:none;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:calc(env(safe-area-inset-top,0px) + 18px) 22px calc(env(safe-area-inset-bottom,0px) + 18px);z-index:5}
+.sc.on{display:flex}
+.oF{animation:oF .6s forwards}.oZ{animation:oZ .6s forwards}.oB{animation:oB .6s forwards}
+.iF{animation:iF .8s both}.iZ{animation:iZ .8s both}.iB{animation:iB .8s both}
+@keyframes oF{to{opacity:0}}@keyframes oZ{to{opacity:0;transform:scale(1.35)}}@keyframes oB{to{opacity:0;filter:blur(14px)}}
+@keyframes iF{from{opacity:0}}@keyframes iZ{from{opacity:0;transform:scale(.7)}}@keyframes iB{from{opacity:0;filter:blur(14px)}}
+@keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.on .a{animation:up .9s both;animation-delay:var(--d,0s)}
+h1,h2{font-weight:600;line-height:1.15;color:var(--k)}
+.t{font-size:clamp(1.9rem,8.5vw,3.2rem)}.n{font-size:clamp(2.6rem,13vw,5rem);font-weight:700}
+.g{text-shadow:0 0 14px #fff,0 0 30px rgba(255,105,160,.55)}
+p{font-size:clamp(1rem,4.2vw,1.25rem);line-height:1.6}
+.btn{min-height:54px;border:0;cursor:pointer;font:700 1.08rem Quicksand,sans-serif;color:#fff;padding:15px 38px;border-radius:999px;background:linear-gradient(135deg,#ff7aa8,#e0457b);box-shadow:0 8px 24px rgba(224,69,123,.38);transition:transform .25s,box-shadow .25s,opacity 1s;position:relative;z-index:20}
+.btn:hover{transform:translateY(-3px) scale(1.05)}.btn:active{transform:scale(.96)}
+.glass{padding:18px 22px;border-radius:26px;background:rgba(255,255,255,.45);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.85);box-shadow:0 10px 36px rgba(224,69,123,.18)}
+#fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:50}
+#amb{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.fh{position:absolute;bottom:-40px;opacity:0;animation:rs linear infinite}
+@keyframes rs{10%{opacity:.7}100%{transform:translateY(-112vh) rotate(25deg);opacity:0}}
+#mus{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));right:12px;z-index:60;width:46px;height:46px;border-radius:50%;border:1px solid #fff;background:rgba(255,255,255,.65);font-size:1.2rem;cursor:pointer}
+#dim{position:fixed;inset:0;background:rgba(40,10,35,.7);opacity:0;transition:opacity 1s;pointer-events:none;z-index:30}
+#fl{position:fixed;inset:0;opacity:0;z-index:45;pointer-events:none}
+@keyframes fs{0%{opacity:0}30%{opacity:.85}100%{opacity:0}}
+#s4{background:linear-gradient(160deg,#35102f,#7a2a5a 60%,#c0508a);color:#fff}
+#s4 h1,#s4 h2{color:#ffe1ee}
+.tw{position:absolute;animation:tw 1.8s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:.2;transform:scale(.7)}to{opacity:1;transform:scale(1.2)}}
+.nm{position:relative;display:inline-block;padding:0 26px}
+svg{display:block}
+#cs{width:100%;max-width:440px;max-height:44dvh}
+.p{transform-box:fill-box;transform-origin:50% 100%}
+.mo,.bl .sm{display:none}.bl .mo{display:block}
+.bl .gh{animation:ln .5s ease-in-out 4;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes ln{50%{transform:rotate(5deg) translateX(3px)}}
+.fm{transform-box:fill-box;transform-origin:50% 100%;animation:fk .35s ease-in-out infinite alternate;transition:.5s}
+@keyframes fk{to{transform:scale(.85,1.15) rotate(-5deg)}}
+.wind .fm{animation:wd .25s ease-in-out infinite alternate}
+@keyframes wd{to{transform:scaleY(.8) skewX(-35deg)}}
+.fm.off{animation:none;transform:scale(0);opacity:0}
+.sk{fill:rgba(130,100,120,.55);transform-box:fill-box;transform-origin:center;animation:sk 2.4s ease-out forwards}
+@keyframes sk{to{transform:translate(10px,-60px) scale(4);opacity:0}}
+.ch .p{animation:hop .5s ease-in-out infinite alternate}.ch g:nth-child(odd)>.p{animation-delay:.25s}
+@keyframes hop{to{transform:translateY(-9px)}}
+#gs{width:min(60vw,36dvh);animation:hop 1s ease-in-out infinite alternate}
+.lid{transform-origin:100px 80px;transition:transform 1s cubic-bezier(.3,1.4,.5,1)}
+.open .lid{transform:translateY(-62px) rotate(-18deg)}
+#gg{opacity:0;transition:opacity 1s}.open #gg{opacity:1}
+#bq{width:min(62vw,34dvh)}#bq g.w{transform-origin:150px 270px;animation:sw 4s ease-in-out infinite alternate}
+@keyframes sw{to{transform:rotate(2.5deg)}}
+.mu{font-size:clamp(1.7rem,7.5vw,2.6rem);color:var(--k);animation:gl 3s ease-in-out infinite alternate;min-height:3.2rem;line-height:1.25}
+@keyframes gl{from{text-shadow:0 0 8px #fff,0 0 18px rgba(255,120,170,.6)}to{text-shadow:0 0 20px #fff,0 0 42px rgba(255,70,140,.9)}}
+</style></head>
+<body>
+<canvas id="fx"></canvas><div id="amb"></div><div id="dim"></div><div id="fl"></div>
+<button id="mus" aria-label="Musik">🔇</button>
+
+<div class="sc on" id="s1">
+ <div class="tw" style="top:18%;left:14%;font-size:22px">✨</div><div class="tw" style="top:26%;right:12%;font-size:18px;animation-delay:.6s">💗</div>
+ <h1 class="t g serif a" style="--d:.3s">Selamat Ulang Tahun Livia Ramadhani</h1>
+ <p class="a glass" style="--d:1.3s">There's a little surprise waiting for you...</p>
+ <button class="btn a" style="--d:2.2s" onclick="start()">Buka Kejutannya 🎁</button>
+</div>
+
+<div class="sc" id="s2">
+ <h2 class="t serif a" style="--d:.2s">Happy 19th Birthday 🎂</h2>
+ <div class="nm"><span class="tw" style="left:0;top:0">✨</span><span class="tw" style="right:0;top:20%;animation-delay:.5s">💗</span><span class="tw" style="left:8%;bottom:-8%;animation-delay:1s">⭐</span>
+ <h1 class="n g sc2 a" style="--d:1s">Livia Ramadhani </h1></div>
+ <p class="serif a" style="--d:1.9s;font-style:italic">Selamat Atas Umur yang baru ini semoga semua impianmu menjadi kenyataan.</p>
+ <button class="btn a" style="--d:2.6s" onclick="conf(60);go(3,'Z',()=>emo('💗',14,'up'))">Lanjut ✨</button>
+</div>
+
+<div class="sc" id="s3" style="gap:8px">
+ <h2 class="t g sc2 a" style="--d:.2s" id="w1">Make a wish, Livia... 💗</h2>
+ <svg id="cs" viewBox="0 0 400 300"></svg>
+ <p class="a" style="--d:.5s" id="w2">Sekarang waktunya meniup lilin.</p>
+ <button class="btn" id="bb" onclick="blow()">Tiup Lilin 💨</button>
+</div>
+
+<div class="sc" id="s4">
+ <h1 class="n g a" style="--d:.5s"> Horeee udh nambah usia 🎉</h1>
+ <h2 class="t serif a" style="--d:1.4s">Happy 19th Birthday, Livia! </h2>
+ <p class="a" style="--d:2.2s">Semoga semua harapan baikmu satu per satu menjadi nyata.</p>
+ <button class="btn" id="b4" style="opacity:0;pointer-events:none" onclick="go(5,'F',()=>conf(70))">Masih ada kejutan... 🎁</button>
+</div>
+
+<div class="sc" id="s5">
+ <h2 class="t serif a" style="--d:.2s;font-size:clamp(1.5rem,6.5vw,2.3rem)" id="g1">Ini ada hadiah kecil untuk Livia... 🎁</h2>
+ <svg id="gs" viewBox="0 0 200 200"><circle id="gg" cx="100" cy="90" r="80" fill="#fff6c9"/>
+  <rect x="40" y="90" width="120" height="92" rx="8" fill="#ff8fb3"/><rect x="92" y="90" width="16" height="92" fill="#ffd36b"/>
+  <g class="lid"><rect x="32" y="64" width="136" height="30" rx="8" fill="#ff6f9d"/><rect x="92" y="64" width="16" height="30" fill="#ffd36b"/>
+  <ellipse cx="80" cy="56" rx="20" ry="11" transform="rotate(-20 80 56)" fill="#ffd36b"/><ellipse cx="120" cy="56" rx="20" ry="11" transform="rotate(20 120 56)" fill="#ffd36b"/><circle cx="100" cy="62" r="8" fill="#e8b84a"/></g></svg>
+ <button class="btn" id="b5" onclick="openGift()">Buka Hadiah 💗</button>
+</div>
+
+<div class="sc" id="s6">
+ <svg id="bq" viewBox="0 0 300 300"></svg>
+ <h2 class="serif" id="t1" style="opacity:0;transition:1s;font-size:clamp(1.4rem,6vw,2rem)">🎁 Hadiah untuk Livia 🌷</h2>
+ <div class="mu sc2" id="t2"> gug</div>
+ <p class="serif" id="t3" style="opacity:0;transition:1s;font-style:italic">Tunggu Kuliah Untuk satu hal lagi</p>
+ <button class="btn" id="b6" style="opacity:0;pointer-events:none" onclick="go(7,'F',()=>emo('🌸',18,'down'))">Lanjut 💗</button>
+</div>
+
+<div class="sc" id="s7">
+ <p class="serif a" style="--d:.3s;font-style:italic;font-size:1.4rem">Once again...</p>
+ <h1 class="t g serif a" style="--d:1.3s">Happy 19th Birthday,<br>Livia Ramadhani! 🎂💗</h1>
+ <p class="glass a" style="--d:2.6s">Semoga di usia 19 ini,<br>kamu selalu dikelilingi orang-orang yang menyayangi kamu,<br>diberi kesehatan, kebahagiaan,<br>dan semua hal baik yang kamu impikan. ✨</p>
+ <button class="btn a" style="--d:4s" onclick="go(8,'B',()=>emo('✨',16,'fill'))">Lanjut 💗</button>
+</div>
+
+<div class="sc" id="s8">
+ <h1 class="t g sc2 a" style="--d:.3s;font-size:clamp(2rem,9vw,3.4rem)">19 looks beautiful on you, Livia. 💗</h1>
+ <p class="glass serif a" style="--d:1.5s;font-style:italic;font-size:1.25rem">Keep smiling.<br>Keep shining.<br>And keep being you. ✨</p>
+ <div class="a" style="--d:2.2s;font-size:2rem">🌷 💗 🌸 💗 🌷</div>
+ <button class="btn a" style="--d:2.8s" onclick="go(1,'F')">Replay Surprise 🔄</button>
+</div>
+
+<script>
+const $=s=>document.querySelector(s),sleep=ms=>new Promise(r=>setTimeout(r,ms)),R=Math.random;
+let cur=1,busy=0,iv,ac,mg,on=0,tm,muted=0;
+// ambient
+const am=$('#amb'),ee=['💗','✨','💖','🌸','⭐'];
+for(let i=0;i<12;i++){const s=document.createElement('span');s.className='fh';s.textContent=ee[i%5];s.style.cssText=`left:${R()*100}%;font-size:${12+R()*14}px;animation-duration:${10+R()*10}s;animation-delay:${-R()*14}s`;am.appendChild(s)}
+// audio
+const mel=[[392,.5],[392,.25],[440,1],[392,1],[523,1],[494,2],[392,.5],[392,.25],[440,1],[392,1],[587,1],[523,2],[392,.5],[392,.25],[784,1],[659,1],[523,1],[494,1],[440,1.5],[698,.5],[698,.25],[659,1],[523,1],[587,1],[523,2]];
+function tune(){if(!on)return;let t=ac.currentTime+.1;mel.forEach(([f,d])=>{const o=ac.createOscillator(),g=ac.createGain();o.type='triangle';o.frequency.value=f;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.07,t+.04);g.gain.exponentialRampToValueAtTime(.0008,t+d*.5);o.connect(g).connect(mg);o.start(t);o.stop(t+d*.5+.05);t+=d*.5});tm=setTimeout(tune,(t-ac.currentTime+1.5)*1000)}
+function initAc(){if(!ac){ac=new (window.AudioContext||window.webkitAudioContext)();mg=ac.createGain();mg.connect(ac.destination)}ac.resume()}
+function pop(){if(!ac||muted)return;const b=ac.createBuffer(1,4000,ac.sampleRate),d=b.getChannelData(0);for(let i=0;i<4000;i++)d[i]=(R()*2-1)*(1-i/4000);const s=ac.createBufferSource(),g=ac.createGain();g.gain.value=.15;s.buffer=b;s.connect(g).connect(mg);s.start()}
+$('#mus').onclick=()=>{initAc();muted=!muted;mg.gain.value=muted?0:1;$('#mus').textContent=muted?'🔇':'🔊'};
+function start(){initAc();if(!on){on=1;tune()}$('#mus').textContent='🔊';go(2,'F',()=>emo('✨',16,'fill'))}
+// particles
+const cv=$('#fx'),cx=cv.getContext('2d');let W,H,P=[],run=0;
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}rs();addEventListener('resize',rs);
+const cols=['#ff8fb3','#fff','#ffd36b','#d9b8ff','#ff5f98'];
+function go2(){if(!run){run=1;requestAnimationFrame(draw)}}
+function emo(e,n,m){for(let i=0;i<n&&P.length<190;i++){const p={k:'e',e,s:16+R()*16,l:130+R()*80,vx:(R()-.5)};
+if(m=='up'){p.x=R()*W;p.y=H+20;p.vy=-(1.5+R()*2)}else if(m=='down'){p.x=R()*W;p.y=-20;p.vy=1+R()*1.5}else{p.x=W*.1+R()*W*.8;p.y=H*.2+R()*H*.6;p.vy=-.5-R()*.6;p.l=75}P.push(p)}go2()}
+function conf(n){for(let i=0;i<n&&P.length<190;i++)P.push({k:'c',x:R()*W,y:-10-R()*H*.4,vx:R()*2-1,vy:2+R()*3,l:300,c:cols[R()*5|0],w:6+R()*5,r:R()*6});go2()}
+function fw(x,y){pop();const c=cols[R()*5|0];for(let i=0;i<30;i++){const a=i/30*6.283,s=2+R()*2.5;P.push({k:'f',x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,l:60,c})}go2()}
+function draw(){cx.clearRect(0,0,W,H);cx.textAlign='center';P=P.filter(p=>{p.x+=p.vx;p.y+=p.vy;p.l--;
+if(p.k=='e'){cx.shadowBlur=0;cx.globalAlpha=Math.min(1,p.l/30);cx.font=p.s+'px serif';cx.fillText(p.e,p.x,p.y)}
+else if(p.k=='f'){p.vy+=.05;p.vx*=.985;cx.globalAlpha=Math.max(p.l/60,0);cx.fillStyle=cx.shadowColor=p.c;cx.shadowBlur=8;cx.beginPath();cx.arc(p.x,p.y,2.2,0,6.3);cx.fill()}
+else{p.r+=.1;cx.globalAlpha=1;cx.shadowBlur=0;cx.fillStyle=p.c;cx.save();cx.translate(p.x,p.y);cx.rotate(p.r);cx.fillRect(0,0,p.w,p.w*.6);cx.restore();if(p.y>H+20)return 0}
+return p.l>0});
+if(P.length)requestAnimationFrame(draw);else{run=0;cx.clearRect(0,0,W,H)}}
+function flash(c){const f=$('#fl');f.style.background=c;f.style.animation='none';f.offsetWidth;f.style.animation='fs .8s'}
+// navigation
+const E={};
+function go(n,t,fx){if(busy)return;busy=1;clearInterval(iv);const a=$('#s'+cur),b=$('#s'+n);a.classList.add('o'+t);fx&&fx();
+setTimeout(()=>{a.classList.remove('on','o'+t);b.classList.add('on','i'+t);cur=n;E[n]&&E[n]();setTimeout(()=>{b.classList.remove('i'+t);busy=0},850)},650)}
+const setIv=(f,ms)=>{clearInterval(iv);iv=setInterval(f,ms)};
+async function ty(el,t){el.textContent='';for(const c of [...t]){el.textContent+=c;await sleep(55)}}
+// people / scene 3
+function ps(x,y,s,o){return `<g transform="translate(${x} ${y}) scale(${s})"><g class="p"><path d="M-30 92 Q-30 40 0 38 Q30 40 30 92Z" fill="${o.d}"/><g class="${o.g||''}">`+
+(o.h?`<path d="M-31 50 Q-35 -34 0 -34 Q35 -34 31 50 Q0 64 -31 50Z" fill="${o.c}"/>`:`<circle cy="-4" r="24" fill="${o.c}"/>`)+
+`<ellipse cy="4" rx="16" ry="18" fill="#ffdcc8"/><circle cx="-6" cy="1" r="2" fill="#5a2a3a"/><circle cx="6" cy="1" r="2" fill="#5a2a3a"/><circle cx="-10" cy="8" r="3" fill="#ffadc2" opacity=".7"/><circle cx="10" cy="8" r="3" fill="#ffadc2" opacity=".7"/><path class="sm" d="M-6 10 Q0 16 6 10" stroke="#b34a6a" fill="none" stroke-width="2" stroke-linecap="round"/><ellipse class="mo" cy="12" rx="4" ry="5" fill="#d9668a"/></g></g></g>`}
+const FL=[[193,158],[217,158],[160,200],[174,200],[226,200],[240,200]];
+function cake(){let h='';[[30,40,'#ff9ec0'],[372,44,'#ffc2d6'],[78,24,'#ff7aa8'],[325,26,'#fff'],[352,70,'#ffb0cb']].forEach(([x,y,c],i)=>h+=`<path d="M${x} ${y+22}Q${x+8} 80 ${x-6} 110" stroke="#d8a0b5" fill="none"/><ellipse cx="${x}" cy="${y}" rx="15" ry="19" fill="${c}" stroke="#fff" stroke-width="2"/>`);
+h+=ps(55,122,1,{d:'#f4a6c0',c:'#e87aa0',h:1})+ps(345,122,1,{d:'#b9d6f2',c:'#5a3a3a'})+ps(200,92,1.12,{d:'#ff9ec0',c:'#ff7aa8',h:1,g:'gh'})+ps(118,142,.8,{d:'#d9b8ff',c:'#f7b6cf',h:1})+ps(283,142,.8,{d:'#ffe0a8',c:'#8a5a44'});
+h+=`<rect x="0" y="206" width="400" height="94" fill="#fff5f8"/><rect x="0" y="206" width="400" height="6" fill="#ffd1e0"/>`;
+h+=`<rect x="150" y="222" width="100" height="40" rx="10" fill="#ffb0cb"/><path d="M150 232Q165 246 180 232T210 232T240 232L250 232" stroke="#fff" stroke-width="7" fill="none"/><rect x="170" y="194" width="60" height="30" rx="9" fill="#ff8fb3"/><rect x="170" y="194" width="60" height="9" rx="4" fill="#fff"/><ellipse cx="200" cy="264" rx="82" ry="7" fill="#fff" stroke="#ffd1e0"/>`;
+h+=`<rect x="182" y="166" width="22" height="30" rx="4" fill="#ffd36b"/><rect x="206" y="166" width="22" height="30" rx="4" fill="#ffd36b"/><text x="193" y="188" font-size="20" font-weight="700" text-anchor="middle" fill="#fff" font-family="serif">1</text><text x="217" y="188" font-size="20" font-weight="700" text-anchor="middle" fill="#fff" font-family="serif">9</text>`;
+[160,174,226,240].forEach(x=>h+=`<rect x="${x-2.5}" y="206" width="5" height="16" fill="#fff" stroke="#ff9ec0"/>`);
+FL.forEach(([x,y])=>h+=`<ellipse class="fm" cx="${x}" cy="${y}" rx="4" ry="8" fill="#ffd36b" style="filter:drop-shadow(0 0 5px #ffb347)"/>`);
+h+=`<text x="95" y="250" font-size="26">🌷</text><text x="285" y="250" font-size="26">💐</text><text x="30" y="150" font-size="16" class="tw">✨</text><text x="365" y="150" font-size="16" class="tw">✨</text>`;
+return h}
+E[3]=()=>{$('#cs').setAttribute('class','');$('#cs').innerHTML=cake();$('#bb').style.display='';$('#dim').style.opacity=0;$('#w2').textContent='Sekarang waktunya meniup lilin.'};
+async function blow(){$('#bb').style.display='none';const s=$('#cs');s.classList.add('bl');await sleep(500);s.classList.add('wind');await sleep(900);
+const fs=[...s.querySelectorAll('.fm')];for(const f of fs){f.classList.add('off');s.insertAdjacentHTML('beforeend',`<circle class="sk" cx="${f.getAttribute('cx')}" cy="${f.getAttribute('cy')}" r="3"/>`);await sleep(350)}
+s.classList.remove('wind','bl');$('#dim').style.opacity=1;await sleep(2300);emo('✨',16,'fill');$('#dim').style.opacity=0;await sleep(900);
+s.classList.add('ch');$('#w2').textContent='Wish made! ✨';conf(60);emo('💗',10,'up');
+for(let i=0;i<4;i++){fw(W*(.2+R()*.6),H*(.15+R()*.3));await sleep(650)}emo('🌷',10,'up');await sleep(1200);
+go(4,'F',()=>{flash('#fff');fw(W*.3,H*.3);fw(W*.7,H*.3)})}
+E[4]=()=>{conf(50);setIv(()=>{fw(W*(.1+R()*.8),H*(.1+R()*.4));if(R()<.5)emo('💗',1,'up')},800);setTimeout(()=>{const b=$('#b4');b.style.opacity=1;b.style.pointerEvents='auto'},3800)};
+E[5]=()=>{$('#gs').parentElement.classList.remove('open');$('#gs').classList.remove('open');$('#b5').style.display='';$('#g1').textContent='Ini ada hadiah kecil untuk Livia... 🎁'};
+async function openGift(){$('#b5').style.display='none';$('#gs').classList.add('open');pop();emo('✨',16,'fill');await sleep(900);emo('🌷',12,'up');emo('💐',4,'up');await sleep(1800);
+go(6,'F',()=>{flash('#ffd6e8');emo('🌸',14,'up')})}
+// bouquet
+(function(){const cl=[['#ff7aa8','#ffb3cc'],['#fff','#ffe4ec'],['#e0457b','#ff8fb3'],['#c79bf0','#e6d0fb'],['#ffa8c5','#fff']];let h='<g class="w"><path d="M150 292 L96 190 Q150 215 204 190Z" fill="#ffe4ec" stroke="#ff8fb3" stroke-width="2"/>';
+[[150,70,0],[100,95,-18],[200,95,18],[65,135,-30],[235,135,30],[125,125,-8],[175,125,8],[150,150,0]].forEach(([x,y,r],i)=>{const c=cl[i%5];h+=`<g transform="rotate(${r} ${x} 200)"><path d="M150 205 Q${(x+150)/2} ${(y+205)/2} ${x} ${y+22}" stroke="#6bb36f" stroke-width="4" fill="none"/><path d="M${x-17} ${y+8} Q${x-20} ${y-26} ${x} ${y-24} Q${x+20} ${y-26} ${x+17} ${y+8} Q${x} ${y+28} ${x-17} ${y+8}Z" fill="${c[0]}" stroke="#ffd0e0"/><path d="M${x-8} ${y+10} Q${x-10} ${y-20} ${x} ${y-22} Q${x+10} ${y-20} ${x+8} ${y+10}Z" fill="${c[1]}" opacity=".85"/></g>`});
+h+='<path d="M135 200 q-30 -8 -42 -30 q30 0 42 30z M165 200 q30 -8 42 -30 q-30 0 -42 30z" fill="#7cc47f"/><path d="M110 205 Q150 238 190 205 L198 224 Q150 254 102 224Z" fill="#ff7aa8"/></g>';$('#bq').innerHTML=h})();
+E[6]=async()=>{['#t1','#t3','#b6'].forEach(i=>{$(i).style.opacity=0});$('#b6').style.pointerEvents='none';$('#t2').textContent='';
+setIv(()=>emo('🌸',2,'down'),700);await sleep(600);$('#t1').style.opacity=1;await sleep(1200);
+await ty($('#t2'),'Hadiah bunganya akan dikirim setelah kuliah 🌷💐');if(cur!=6)return;emo('🌷',10,'up');await sleep(500);$('#t3').style.opacity=1;await sleep(900);
+const b=$('#b6');b.style.opacity=1;b.style.pointerEvents='auto'};
+E[7]=()=>setIv(()=>emo(R()<.5?'💗':'✨',1,'up'),900);
+E[8]=()=>setIv(()=>emo(['🌷','💗','🌸'][R()*3|0],1,'up'),800);
+E[1]=()=>{};
+</script>
+</body></html>
